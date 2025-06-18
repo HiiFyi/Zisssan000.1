@@ -210,7 +210,7 @@ IMDb Data:
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
-BOT BY : @Arpitbotmovies
+BOT BY : @onefighterarmy
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
