@@ -72,7 +72,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Arpitbotmovies') # owner usernam
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/filmsexpert2')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/filmsexpert2')
+CHNL_LNK = environ.get('CHNL_LNK', 'http://t.me/stark_network07')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Stark_Network07') # Support Chat Link Without https:// or @
 
