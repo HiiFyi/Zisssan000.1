@@ -19,7 +19,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'N2Bot')
 API_ID = int(environ.get('API_ID', '24935727'))
 API_HASH = environ.get('API_HASH', '3fd33336629324ecd664e9b6894f0909')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7872783969:AAFd4Z86R0PXua9dxV8epeYdsJpEbT_d4Qc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -54,8 +54,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "")
-DATABASE_URI = environ.get('DATABASE_URI', "")
+SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://Zisshan2ndbit002:Zisshan2ndbit002@cluster08374478484.ona6ubl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster08374478484")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Zisshan2ndbit002:Zisshan2ndbit002@cluster08374478484.ona6ubl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster08374478484")
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
