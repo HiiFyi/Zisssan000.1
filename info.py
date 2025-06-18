@@ -35,7 +35,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002445219066').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '7336971189').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002445219066'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002453978699'))
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -71,10 +71,10 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Arpitbotmovies') # owner usernam
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+VIAF2qRrk5xlMTRl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+VIAF2qRrk5xlMTRl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/filmsexpert2')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/filmsexpert2')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+VIAF2qRrk5xlMTRl') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Stark_Network07') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -142,7 +142,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://sweet-karie-appi00-156399f6.koyeb.app/")
+URL = environ.get("URL", "")
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
