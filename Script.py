@@ -3,7 +3,7 @@
 
 
 class script(object):
-    START_TXT = """<b>ʜᴇʏ 😎 ⚡ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>
+    START_TXT = """<b>ʜᴇʏ 😎 ⚡ {},
     
 <blockquote>Iᴍ Tʜᴇ Mᴏsᴛ Aᴅᴠᴀɴᴄᴇ Aɪ Pᴏᴡᴇʀᴅ Bᴏᴛ.🥰 Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Aɴʏ Mᴏᴠɪᴇꜱ & Sᴇʀɪᴇꜱ Nᴀᴍᴇ Aɴᴅ Sᴇᴇ Mʏ Pᴏᴡᴇʀ.</blockquote>\n <spoiler>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - @zishananis_official</spoiler></b>"""
 
@@ -295,4 +295,5 @@ Description: {description}
 
 
     
+
 
